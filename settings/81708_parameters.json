@@ -1,0 +1,29 @@
+{
+  "data_dir": "/local/scratch/ds858/productive_contrafactives/data/",
+  "output_dir": "/local/scratch/ds858/productive_contrafactives/output/test/",
+  "text_parameters": {
+    "input_len": 11,
+    "sentence_len": 10,
+    "source_vocab_size": 41,
+    "target_vocab_size": 63
+  },
+  "model_parameters": {
+    "d_embedding": 180,
+    "d_hidden": 240,
+    "n_encoder_layers": 5,
+    "n_decoder_layers": 15,
+    "n_heads": 10,
+    "p_dropout": 0.1,
+    "input_len": 11,
+    "sentence_len": 10,
+    "source_vocab_size": 41,
+    "target_vocab_size": 63
+  },
+  "train_parameters": {
+    "lr": 0.0001,
+    "epochs": 3,
+    "batch_size": 120
+  },
+  "seed": 81708,
+  "device": "parallel"
+}

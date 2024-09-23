@@ -1,0 +1,83 @@
+{
+  "data_dir": "/local/scratch/ds858/productive_contrafactives/data/",
+  "output_dir": "/local/scratch/ds858/productive_contrafactives/output/explore/",
+  "text_params": {
+    "input_len": 11,
+    "sentence_len": 10,
+    "source_vocab_size": 41,
+    "target_vocab_size": 63
+  },
+  "model_space": {
+    "d_embedding": [
+      80,
+      100,
+      120,
+      140,
+      160,
+      180,
+      200
+    ],
+    "d_hidden": [
+      160,
+      180,
+      200,
+      220,
+      240,
+      260,
+      280,
+      300,
+      320,
+      340
+    ],
+    "n_encoder_layers": [
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "n_decoder_layers": [
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "n_heads": [
+      2,
+      5,
+      10,
+      20
+    ],
+    "p_dropout": [
+      0.1,
+      0.2,
+      0.3
+    ]
+  },
+  "train_space": {
+    "lr": [
+      1e-03,
+      5e-04,
+      1e-04,
+      5e-05,
+      1e-05,
+      5e-06,
+      1e-06
+    ],
+    "epochs": [
+      3,
+      5,
+      7
+    ],
+    "batch_size": [
+      120,
+      240,
+      360,
+      480,
+      600
+    ]
+  },
+  "n_draws": 10,
+  "device": "parallel"
+}

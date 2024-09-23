@@ -1,0 +1,15 @@
+{
+    "vocab": {"verbs":           ["eat", "cook", "order", "buy"],
+              "agent":           ["rory", "lorelai", "lane", "paris", "timon", "ahab"],
+              "main_ingredient": ["tomato", "pumpkin", "mushroom", "carrot", "potato"],
+              "spice":           ["basil", "oregano", "pepper", "chili", "coconut"],
+              "dish":            ["soup", "pie", "rice", "stew", "curry"],
+              "meal":            ["lunch", "dinner", "breakfast"],
+              "day":             ["day-before-yesterday", "yesterday", "now", "today", "tomorrow", "day-after-tomorrow"]},
+    "day_to_index": {"day-before-yesterday": "past",
+                     "yesterday":            "past",
+                     "now":                  "present",
+                     "today":                "present",
+                     "tomorrow":             "future",
+                     "day-after-tomorrow":   "future"}
+}
