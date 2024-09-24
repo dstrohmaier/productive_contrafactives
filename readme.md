@@ -4,6 +4,10 @@
 
 This repository includes code used for an experiment investigating the learnability of contrafactive verbs in production for transformer models.
 
+# Output
+
+The output of our experiments is large and can be downloaded from [Google Drive](https://drive.google.com/file/d/1Y5gu-_-C57KVR7qJyhj8vPG4gFU3Ntr8/view?usp=sharing).
+
 # Authors
 
 The research is by [Simon Wimmer](https://github.com/sbwimmer) and [David Strohmaier](https://dstrohmaier.com). The code has been written by David Strohmaier.
